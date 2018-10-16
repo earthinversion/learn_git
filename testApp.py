@@ -6,4 +6,6 @@ print(array)
 
 plt.figure(figsize=(10,6))
 plt.plot(array)
+plt.xlabel("Data counts")
+plt.ylabel("Data values")
 plt.savefig('testFigure.png',dpi=100,bbox_inches='tight')
