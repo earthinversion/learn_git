@@ -1,0 +1,9 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+array=np.linspace(1,100,10)
+print(array)
+
+plt.figure(figsize=(10,6))
+plt.plot(array)
+plt.savefig('testFigure.png',dpi=100,bbox_inches='tight')
