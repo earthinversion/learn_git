@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 array=np.linspace(1,100,10)
-randarray=np.random.rand(len(array))*10+3
+randarray=np.random.rand(len(array))**2*10+3
 
 plt.figure(figsize=(10,6))
 plt.plot(array,randarray,marker='o', color='r',linewidth=2)
